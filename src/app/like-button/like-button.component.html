@@ -1,0 +1,7 @@
+<!-- <button class="like-button" [ngClass]="{'liked':isLiked}" (click)="clickButton()" aria-hidden="true"><span>Like</span><mat-icon>favourite</mat-icon></button> -->
+<button class="like-button" [ngClass]="{'liked':isLiked}" (click)="clickButton()">
+    <span class="mat-button-wrapper">
+        <span>Like</span>
+        <mat-icon id="favoriteIcon" *ngIf="isLiked">favorite</mat-icon>
+     </span>
+</button>

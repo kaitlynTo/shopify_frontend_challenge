@@ -1,0 +1,24 @@
+<div class="pageHeader">
+    <h1>Spacetagram</h1>
+    <p>The following is a list of images by NASA's Curiosity, Opportunity, and Spirit rovers on Mars.</p>
+    <span class="loadingMsg" *ngIf="loading">One sec.. Fetching images from NASA..</span>
+</div>
+
+
+
+<div *ngIf="!loading" class="content">
+    <div fxLayout="row wrap" fxLayout.xs="column">
+        <div fxFlex [style.margin]="'20px'" *ngFor="let image of this.images">
+            <mat-card [style.min-width]="'200px'">
+                <img mat-card-image class="spaceimage" src={{image.imgUrl}} alt="mars image">
+                <mat-card-header>
+                    <mat-card-title>{{image.title}}</mat-card-title>
+                    <mat-card-subtitle>{{image.date}}</mat-card-subtitle>
+                </mat-card-header>
+                <mat-card-content>{{image.description}}</mat-card-content>
+                <!-- <button mat-raised-button id="likeBtn">Like</button> -->
+                <app-like-button></app-like-button>
+            </mat-card>
+        </div>
+    </div>
+</div>

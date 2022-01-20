@@ -1,0 +1,4 @@
+# GET https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=ka3z0k9TpHZrXAba4lpEKsJUFYSmWX1t0RDzyHl9 
+
+GET https://api.nasa.gov/planetary/apod?api_key=ka3z0k9TpHZrXAba4lpEKsJUFYSmWX1t0RDzyHl9&start_date=2021-12-01&end_date=2022-01-01
+

@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    color: black;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.pageHeader {
+    padding: 20px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #585858;
+    font-weight: bold;
+}
+
+.pageHeader h1 {
+    color: navy;
+}
+
+.pageHeader .loadingMsg {
+    font-size: large;
+    font-weight: bolder;
+    font-style: italic;
+    color: blueviolet;
+}
