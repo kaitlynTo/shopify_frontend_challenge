@@ -4,7 +4,7 @@ Web Application that fetches space image data from NASA. Users can like/unlike t
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
 
-[Link to Web Application](https://cocky-jepsen-c578c3.netlify.app)
+[Link to Web Application](https://cocky-jepsen-c578c3.netlify.app/spacetagram)
 
 ## Technologies
 * Angular
